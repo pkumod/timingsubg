@@ -1,0 +1,22 @@
+# qeNum=7, qNO=64, ratioTM=0.5
+e	1	1	2	TCP	-1	443
+e	2	3	1	TCP	-1	443
+e	3	4	2	TCP	-1	-1
+e	4	2	5	ICMP	-1	-1
+e	5	1	6	TCP	-1	5128
+e	6	1	7	TCP	-1	80
+e	7	2	8	UDP	-1	27015
+
+b	1	7
+b	3	6
+b	3	4
+b	4	7
+b	7	5
+
+tc1	1	6
+tc2	1	2
+tc3	2	1	5
+tc4	1	7
+tc5	1	4
+tc6	1	3
+

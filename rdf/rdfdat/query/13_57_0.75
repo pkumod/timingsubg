@@ -1,0 +1,52 @@
+# qeNum=13, qNO=57, ratioTM=0.75
+e	1	sibpo:	1	a	sioc:	2
+e	2	sibpo:	1	sib:hashtag	literal	-1
+e	3	sibpho:	3	a	sioc:	2
+e	4	sibpo:	1	dcterms:title	literal	-1
+e	5	sibpha:	4	sioc:container_of	sibpho:	3
+e	6	sibpo:	1	a	sib:	5
+e	7	sibpo:	1	sioc:ip_address	literal	-1
+e	8	sibpho:	3	dc:created	literal	-1
+e	9	sibpho:	6	a	sib:	5
+e	10	sibpho:	3	a	sib:	5
+e	11	sibpho:	6	a	sioc:	2
+e	12	sibpho:	3	sib:usertag	sibu:	7
+e	13	sibpho:	6	dbpo:location	literal	-1
+
+b	1	6
+b	2	1
+b	3	4
+b	3	10
+b	4	8
+b	4	11
+b	4	2
+b	5	9
+b	5	10
+b	5	13
+b	7	6
+b	7	9
+b	7	5
+b	7	10
+b	7	1
+b	7	11
+b	7	2
+b	8	6
+b	8	12
+b	8	2
+b	9	3
+b	9	4
+b	9	1
+b	9	2
+b	10	6
+b	10	4
+b	10	8
+b	11	12
+b	12	1
+b	13	12
+
+tc1	4	9	10	11	6
+tc2	4	5	3	12	1
+tc3	3	7	4	2
+tc4	1	13
+tc5	1	8
+

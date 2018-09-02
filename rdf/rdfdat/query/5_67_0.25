@@ -1,0 +1,10 @@
+# qeNum=5, qNO=67, ratioTM=0.25
+e	1	sibu:	1	sib:trackedAt	sibgps:	2
+e	2	sibgps:	2	sib:trackedTime	literal	-1
+e	3	sibu:	3	sib:trackedAt	sibgps:	2
+e	4	sibu:	4	sib:trackedAt	sibgps:	2
+e	5	sibgps:	2	dbpprop:longd	literal	-1
+
+b	1	3
+
+

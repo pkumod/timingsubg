@@ -1,0 +1,15 @@
+# qeNum=5, qNO=8, ratioTM=0.25
+e	1	sibpo:	1	a	sioc:	2
+e	2	sibpo:	1	sioc:ip_address	literal	-1
+e	3	sibpho:	3	a	sioc:	2
+e	4	sibpho:	3	sib:agent	literal	-1
+e	5	sibpho:	3	sib:usertag	sibu:	4
+
+b	2	3
+
+tc1	1	5
+tc2	1	4
+tc3	1	3
+tc4	1	2
+tc5	1	1
+

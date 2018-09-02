@@ -1,0 +1,17 @@
+# qeNum=7, qNO=68, ratioTM=0.5
+e	1	sibu:	1	sioc:creator_of	sibpo:	2
+e	2	sibpo:	2	dcterms:title	literal	-1
+e	3	sibpo:	2	sioc:content	literal	-1
+e	4	sibpo:	2	sib:hashtag	literal	-1
+e	5	sibpo:	2	sib:agent	literal	-1
+e	6	sibpo:	2	sib:browser	literal	-1
+e	7	sibfo:	3	sioc:container_of	sibpo:	2
+
+b	1	2
+b	2	5
+b	2	6
+b	4	5
+b	4	1
+b	7	6
+
+

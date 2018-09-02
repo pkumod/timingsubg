@@ -1,0 +1,14 @@
+# qeNum=5, qNO=9, ratioTM=0.25
+e	1	sibfo:	1	sioc:container_of	sibpo:	2
+e	2	sibpo:	2	sib:hashtag	literal	-1
+e	3	sibpo:	2	sib:browser	literal	-1
+e	4	sibu:	3	sioc:creator_of	sibpo:	2
+e	5	sibpo:	2	sioc:content	literal	-1
+
+b	4	3
+
+tc1	2	4	3
+tc2	1	5
+tc3	1	2
+tc4	1	1
+

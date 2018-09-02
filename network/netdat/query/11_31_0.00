@@ -1,0 +1,26 @@
+# qeNum=11, qNO=31, ratioTM=0
+e	1	1	2	TCP	-1	443
+e	2	1	3	TCP	-1	443
+e	3	1	4	UDP	-1	6881
+e	4	5	1	TCP	-1	80
+e	5	1	6	TCP	-1	443
+e	6	3	2	TCP	-1	443
+e	7	7	1	TCP	-1	443
+e	8	8	1	UDP	-1	27015
+e	9	9	4	UDP	-1	53
+e	10	10	1	TCP	-1	-1
+e	11	2	11	TCP	-1	-1
+
+
+tc1	1	8
+tc2	1	1
+tc3	1	11
+tc4	1	6
+tc5	1	2
+tc6	1	7
+tc7	1	4
+tc8	1	3
+tc9	1	9
+tc10	1	10
+tc11	1	5
+

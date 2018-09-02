@@ -1,0 +1,26 @@
+# qeNum=9, qNO=18, ratioTM=0.5
+e	1	sibpha:	1	sioc:container_of	sibpho:	2
+e	2	sibpho:	2	sioc:ip_address	literal	-1
+e	3	sibpho:	2	a	sib:	3
+e	4	sibpho:	2	dbpo:location	literal	-1
+e	5	sibpho:	2	a	sioc:	4
+e	6	sibpho:	2	dc:created	literal	-1
+e	7	sibpho:	5	a	sioc:	4
+e	8	sibpho:	5	dbpprop:longd	literal	-1
+e	9	sibpho:	2	dbpprop:longd	literal	-1
+
+b	1	8
+b	3	9
+b	4	1
+b	4	7
+b	6	5
+b	6	4
+b	9	8
+b	9	4
+
+tc1	4	3	9	4	1
+tc2	2	6	5
+tc3	1	8
+tc4	1	7
+tc5	1	2
+

@@ -1,0 +1,11 @@
+# qeNum=5, qNO=71, ratioTM=0.5
+e	1	sibpho:	1	sib:usertag	sibu:	2
+e	2	sibpho:	1	dbpo:location	literal	-1
+e	3	sibpho:	1	a	sib:	3
+e	4	sibpho:	1	sioc:ip_address	literal	-1
+e	5	sibpho:	1	a	sioc:	4
+
+b	3	5
+b	5	2
+
+

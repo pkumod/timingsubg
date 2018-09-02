@@ -1,0 +1,48 @@
+# qeNum=15, qNO=57, ratioTM=0.75
+e	1	sibpo:	1	a	sioc:	2
+e	2	sibfo:	3	sioc:container_of	sibpo:	1
+e	3	sibu:	4	sioc:creator_of	sibpo:	1
+e	4	sibpho:	5	a	sioc:	2
+e	5	sibpho:	5	sib:agent	literal	-1
+e	6	sibpho:	5	dbpprop:latd	literal	-1
+e	7	sibpo:	1	sib:hashtag	literal	-1
+e	8	sibpo:	6	a	sioc:	2
+e	9	sibpo:	6	a	sib:	7
+e	10	sibpo:	1	a	sioc:	8
+e	11	sibpho:	5	sib:usertag	sibu:	9
+e	12	sibu:	10	sioc:creator_of	sibpo:	1
+e	13	sibpo:	6	sib:hashtag	literal	-1
+e	14	sibpho:	5	sib:usertag	sibu:	11
+e	15	sibpho:	5	sib:usertag	sibu:	12
+
+b	1	13
+b	1	7
+b	1	10
+b	2	12
+b	2	10
+b	3	7
+b	4	6
+b	5	3
+b	6	8
+b	8	7
+b	8	15
+b	9	10
+b	9	15
+b	10	4
+b	11	9
+b	11	7
+b	11	2
+b	11	15
+b	12	3
+b	12	14
+b	13	11
+b	14	9
+
+tc1	8	1	2	12	10	4	6	8	7
+tc2	2	13	9
+tc3	1	5
+tc4	1	14
+tc5	1	15
+tc6	1	3
+tc7	1	11
+

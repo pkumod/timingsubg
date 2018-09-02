@@ -1,0 +1,13 @@
+# qeNum=9, qNO=66, ratioTM=0
+e	1	sibfo:	1	sioc:container_of	sibpo:	2
+e	2	sibpo:	2	dcterms:title	literal	-1
+e	3	sibpo:	2	a	sib:	3
+e	4	sibpo:	2	sib:hashtag	literal	-1
+e	5	sibpo:	2	sioc:ip_address	literal	-1
+e	6	sibpho:	4	a	sib:	3
+e	7	sibpho:	4	sib:browser	literal	-1
+e	8	sibpho:	4	sib:usertag	sibu:	5
+e	9	sibpho:	4	dbpo:location	literal	-1
+
+
+

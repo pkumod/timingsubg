@@ -1,0 +1,19 @@
+# qeNum=15, qNO=26, ratioTM=0
+e	1	sibu:	1	sioc:creator_of	sibpo:	2
+e	2	sibfo:	3	sioc:container_of	sibpo:	2
+e	3	sibpo:	2	sib:hashtag	literal	-1
+e	4	sibpo:	2	sib:agent	literal	-1
+e	5	sibpo:	2	dcterms:title	literal	-1
+e	6	sibpo:	2	a	sib:	4
+e	7	sibpo:	2	dc:created	literal	-1
+e	8	sibpo:	5	a	sib:	4
+e	9	sibpo:	5	sib:browser	literal	-1
+e	10	sibpo:	5	dc:created	literal	-1
+e	11	sibpho:	6	a	sib:	4
+e	12	sibpha:	7	sioc:container_of	sibpho:	6
+e	13	sibpho:	6	sib:usertag	sibu:	8
+e	14	sibpo:	5	a	sioc:	9
+e	15	sibpho:	6	sib:usertag	sibu:	10
+
+
+

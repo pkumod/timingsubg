@@ -1,0 +1,32 @@
+# qeNum=7, qNO=67, ratioTM=1
+e	1	sibpho:	1	sib:usertag	sibu:	2
+e	2	sibpho:	1	sib:browser	literal	-1
+e	3	sibpho:	1	a	sioc:	3
+e	4	sibpha:	4	sioc:container_of	sibpho:	1
+e	5	sibpo:	5	a	sioc:	3
+e	6	sibpo:	5	sioc:ip_address	literal	-1
+e	7	sibpo:	5	sib:hashtag	literal	-1
+
+b	1	5
+b	2	5
+b	2	7
+b	2	3
+b	2	1
+b	2	4
+b	3	5
+b	3	7
+b	3	1
+b	3	4
+b	4	5
+b	4	7
+b	4	1
+b	6	2
+b	6	5
+b	6	7
+b	6	3
+b	6	1
+b	6	4
+b	7	5
+b	7	1
+
+

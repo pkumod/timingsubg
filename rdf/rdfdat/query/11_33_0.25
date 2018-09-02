@@ -1,0 +1,19 @@
+# qeNum=11, qNO=33, ratioTM=0.25
+e	1	sibpha:	1	sioc:container_of	sibpho:	2
+e	2	sibpho:	2	sib:usertag	sibu:	3
+e	3	sibpho:	2	sib:usertag	sibu:	4
+e	4	sibpho:	2	sioc:ip_address	literal	-1
+e	5	sibpho:	2	sib:usertag	sibu:	5
+e	6	sibpho:	2	a	sib:	6
+e	7	sibpho:	2	sib:usertag	sibu:	7
+e	8	sibpho:	2	sib:usertag	sibu:	8
+e	9	sibpho:	2	sib:usertag	sibu:	9
+e	10	sibpho:	10	a	sib:	6
+e	11	sibpho:	2	a	sioc:	11
+
+b	1	6
+b	3	10
+b	5	2
+b	10	7
+
+

@@ -1,0 +1,49 @@
+# qeNum=15, qNO=46, ratioTM=0.5
+e	1	sibpho:	1	sib:usertag	sibu:	2
+e	2	sibpho:	1	sib:usertag	sibu:	3
+e	3	sibpho:	1	sib:usertag	sibu:	4
+e	4	sibpho:	1	sib:usertag	sibu:	5
+e	5	sibpho:	1	sib:usertag	sibu:	6
+e	6	sibpho:	1	sioc:ip_address	literal	-1
+e	7	sibpho:	1	a	sioc:	7
+e	8	sibpho:	1	dc:created	literal	-1
+e	9	sibpho:	1	a	sib:	8
+e	10	sibpho:	1	sib:browser	literal	-1
+e	11	sibpho:	1	sib:usertag	sibu:	9
+e	12	sibpho:	1	sib:usertag	sibu:	10
+e	13	sibpha:	11	sioc:container_of	sibpho:	1
+e	14	sibpho:	1	dbpo:location	literal	-1
+e	15	sibpho:	1	sib:agent	literal	-1
+
+b	2	13
+b	3	9
+b	3	6
+b	3	7
+b	3	11
+b	5	7
+b	5	3
+b	5	11
+b	5	1
+b	5	12
+b	6	14
+b	6	15
+b	10	13
+b	11	6
+b	11	1
+b	13	8
+b	14	7
+b	14	2
+b	15	1
+
+tc1	1	11
+tc2	4	3	14	2	8
+tc3	1	5
+tc4	1	15
+tc5	2	10	13
+tc6	1	6
+tc7	1	9
+tc8	1	12
+tc9	1	1
+tc10	1	7
+tc11	1	4
+

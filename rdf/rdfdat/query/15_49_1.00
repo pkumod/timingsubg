@@ -1,0 +1,130 @@
+# qeNum=15, qNO=49, ratioTM=1
+e	1	sibpho:	1	sib:usertag	sibu:	2
+e	2	sibpho:	1	sib:usertag	sibu:	3
+e	3	sibpho:	1	dbpprop:latd	literal	-1
+e	4	sibpho:	1	dbpo:location	literal	-1
+e	5	sibpho:	1	dc:created	literal	-1
+e	6	sibpho:	1	sib:browser	literal	-1
+e	7	sibpho:	1	a	sioc:	4
+e	8	sibpho:	1	sioc:ip_address	literal	-1
+e	9	sibpho:	1	a	sib:	5
+e	10	sibpho:	1	dbpprop:longd	literal	-1
+e	11	sibpo:	6	a	sioc:	4
+e	12	sibpho:	1	sib:usertag	sibu:	7
+e	13	sibpo:	6	dc:created	literal	-1
+e	14	sibpho:	8	a	sib:	5
+e	15	sibpo:	6	sioc:content	literal	-1
+
+b	1	8
+b	1	5
+b	1	13
+b	1	4
+b	1	6
+b	1	7
+b	1	11
+b	1	14
+b	1	12
+b	1	2
+b	1	15
+b	1	10
+b	2	8
+b	2	5
+b	2	13
+b	2	4
+b	2	12
+b	3	8
+b	3	5
+b	3	13
+b	3	4
+b	3	6
+b	3	7
+b	3	9
+b	3	11
+b	3	14
+b	3	1
+b	3	12
+b	3	2
+b	3	15
+b	3	10
+b	4	8
+b	4	12
+b	5	8
+b	5	13
+b	5	4
+b	5	12
+b	6	8
+b	6	5
+b	6	13
+b	6	4
+b	6	12
+b	6	2
+b	7	8
+b	7	5
+b	7	13
+b	7	4
+b	7	6
+b	7	11
+b	7	14
+b	7	12
+b	7	2
+b	9	8
+b	9	5
+b	9	13
+b	9	4
+b	9	6
+b	9	7
+b	9	11
+b	9	14
+b	9	1
+b	9	12
+b	9	2
+b	9	15
+b	9	10
+b	10	8
+b	10	5
+b	10	13
+b	10	4
+b	10	6
+b	10	7
+b	10	11
+b	10	14
+b	10	12
+b	10	2
+b	10	15
+b	11	8
+b	11	5
+b	11	13
+b	11	4
+b	11	6
+b	11	14
+b	11	12
+b	11	2
+b	12	8
+b	13	8
+b	13	4
+b	13	12
+b	14	8
+b	14	5
+b	14	13
+b	14	4
+b	14	6
+b	14	12
+b	14	2
+b	15	8
+b	15	5
+b	15	13
+b	15	4
+b	15	6
+b	15	7
+b	15	11
+b	15	14
+b	15	12
+b	15	2
+
+tc1	10	3	9	7	11	6	2	5	13	4	12
+tc2	1	1
+tc3	1	8
+tc4	1	10
+tc5	1	15
+tc6	1	14
+

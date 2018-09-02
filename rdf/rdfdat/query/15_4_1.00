@@ -1,0 +1,125 @@
+# qeNum=15, qNO=4, ratioTM=1
+e	1	sibu:	1	sib:trackedAt	sibgps:	2
+e	2	sibgps:	2	sib:trackedLocation	literal	-1
+e	3	sibu:	3	sib:trackedAt	sibgps:	2
+e	4	sibgps:	2	dbpprop:latd	literal	-1
+e	5	sibgps:	2	sib:trackedTime	literal	-1
+e	6	sibgps:	2	dbpprop:longd	literal	-1
+e	7	sibu:	4	sib:trackedAt	sibgps:	2
+e	8	sibu:	5	sib:trackedAt	sibgps:	2
+e	9	sibu:	6	sib:trackedAt	sibgps:	2
+e	10	sibu:	7	sib:trackedAt	sibgps:	2
+e	11	sibu:	8	sib:trackedAt	sibgps:	2
+e	12	sibu:	9	sib:trackedAt	sibgps:	2
+e	13	sibu:	10	sib:trackedAt	sibgps:	2
+e	14	sibu:	11	sib:trackedAt	sibgps:	2
+e	15	sibu:	12	sib:trackedAt	sibgps:	2
+
+b	1	6
+b	1	9
+b	1	5
+b	1	14
+b	2	6
+b	2	1
+b	2	9
+b	2	5
+b	2	12
+b	2	14
+b	3	11
+b	3	7
+b	3	8
+b	3	10
+b	3	4
+b	3	6
+b	3	1
+b	3	13
+b	3	9
+b	3	5
+b	3	2
+b	3	12
+b	3	14
+b	3	15
+b	4	11
+b	4	7
+b	4	8
+b	4	10
+b	4	6
+b	4	1
+b	4	9
+b	4	5
+b	4	2
+b	4	12
+b	4	14
+b	4	15
+b	5	6
+b	5	14
+b	7	11
+b	7	8
+b	7	10
+b	7	6
+b	7	1
+b	7	9
+b	7	5
+b	7	2
+b	7	12
+b	7	14
+b	8	11
+b	8	6
+b	8	1
+b	8	9
+b	8	5
+b	8	2
+b	8	12
+b	8	14
+b	9	6
+b	9	5
+b	9	14
+b	10	11
+b	10	8
+b	10	6
+b	10	1
+b	10	9
+b	10	5
+b	10	2
+b	10	12
+b	10	14
+b	11	6
+b	11	1
+b	11	9
+b	11	5
+b	11	2
+b	11	12
+b	11	14
+b	12	6
+b	12	1
+b	12	9
+b	12	5
+b	12	14
+b	13	11
+b	13	7
+b	13	8
+b	13	10
+b	13	4
+b	13	6
+b	13	1
+b	13	9
+b	13	5
+b	13	2
+b	13	12
+b	13	14
+b	13	15
+b	14	6
+b	15	11
+b	15	7
+b	15	8
+b	15	10
+b	15	6
+b	15	1
+b	15	9
+b	15	5
+b	15	2
+b	15	12
+b	15	14
+
+tc1	15	3	13	4	15	7	10	8	11	2	12	1	9	5	14	6
+

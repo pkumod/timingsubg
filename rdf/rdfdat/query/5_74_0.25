@@ -1,0 +1,10 @@
+# qeNum=5, qNO=74, ratioTM=0.25
+e	1	sibpo:	1	a	sioc:	2
+e	2	sibpo:	1	dcterms:title	literal	-1
+e	3	sibfo:	3	sioc:container_of	sibpo:	1
+e	4	sibpho:	4	a	sioc:	2
+e	5	sibpo:	1	a	sib:	5
+
+b	4	2
+
+

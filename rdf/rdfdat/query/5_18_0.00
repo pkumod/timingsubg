@@ -1,0 +1,14 @@
+# qeNum=5, qNO=18, ratioTM=0
+e	1	sibpha:	1	sioc:container_of	sibpho:	2
+e	2	sibpho:	2	a	sioc:	3
+e	3	sibpho:	2	sib:browser	literal	-1
+e	4	sibpho:	2	sib:usertag	sibu:	4
+e	5	sibpho:	2	sib:agent	literal	-1
+
+
+tc1	1	5
+tc2	1	4
+tc3	1	3
+tc4	1	2
+tc5	1	1
+

@@ -1,0 +1,124 @@
+# qeNum=15, qNO=30, ratioTM=1
+e	1	sibpho:	1	sib:usertag	sibu:	2
+e	2	sibpho:	1	sib:agent	literal	-1
+e	3	sibpho:	1	dc:created	literal	-1
+e	4	sibpho:	1	dbpo:location	literal	-1
+e	5	sibpho:	1	sib:browser	literal	-1
+e	6	sibpha:	3	sioc:container_of	sibpho:	1
+e	7	sibpho:	1	sib:usertag	sibu:	4
+e	8	sibpho:	1	dbpprop:latd	literal	-1
+e	9	sibpho:	1	a	sib:	5
+e	10	sibpho:	1	sib:usertag	sibu:	6
+e	11	sibpho:	1	sib:usertag	sibu:	7
+e	12	sibpho:	1	dbpprop:longd	literal	-1
+e	13	sibpho:	1	sib:usertag	sibu:	8
+e	14	sibpho:	1	sib:usertag	sibu:	9
+e	15	sibpho:	1	a	sioc:	10
+
+b	1	4
+b	1	12
+b	1	2
+b	1	10
+b	1	8
+b	1	7
+b	1	11
+b	1	5
+b	2	4
+b	2	10
+b	2	8
+b	2	7
+b	2	11
+b	3	4
+b	3	12
+b	3	2
+b	3	10
+b	3	8
+b	3	7
+b	3	11
+b	3	13
+b	3	5
+b	3	1
+b	5	4
+b	5	12
+b	5	2
+b	5	10
+b	5	8
+b	5	7
+b	5	11
+b	6	4
+b	6	12
+b	6	2
+b	6	10
+b	6	8
+b	6	7
+b	6	3
+b	6	11
+b	6	9
+b	6	14
+b	6	13
+b	6	5
+b	6	15
+b	6	1
+b	7	4
+b	7	10
+b	7	8
+b	8	4
+b	9	4
+b	9	12
+b	9	2
+b	9	10
+b	9	8
+b	9	7
+b	9	3
+b	9	11
+b	9	13
+b	9	5
+b	9	1
+b	10	4
+b	10	8
+b	11	4
+b	11	10
+b	11	8
+b	11	7
+b	12	4
+b	12	2
+b	12	10
+b	12	8
+b	12	7
+b	12	11
+b	13	4
+b	13	12
+b	13	2
+b	13	10
+b	13	8
+b	13	7
+b	13	11
+b	13	5
+b	13	1
+b	14	4
+b	14	12
+b	14	2
+b	14	10
+b	14	8
+b	14	7
+b	14	3
+b	14	11
+b	14	9
+b	14	13
+b	14	5
+b	14	1
+b	15	4
+b	15	12
+b	15	2
+b	15	10
+b	15	8
+b	15	7
+b	15	3
+b	15	11
+b	15	9
+b	15	14
+b	15	13
+b	15	5
+b	15	1
+
+

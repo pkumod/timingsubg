@@ -1,0 +1,14 @@
+# qeNum=5, qNO=19, ratioTM=0
+e	1	sibu:	1	sioc:creator_of	sibpo:	2
+e	2	sibfo:	3	sioc:container_of	sibpo:	2
+e	3	sibpo:	2	sioc:content	literal	-1
+e	4	sibpo:	2	a	sioc:	4
+e	5	sibpo:	2	sib:agent	literal	-1
+
+
+tc1	1	5
+tc2	1	4
+tc3	1	3
+tc4	1	2
+tc5	1	1
+

@@ -1,0 +1,54 @@
+# qeNum=15, qNO=26, ratioTM=0.75
+e	1	sibu:	1	sioc:creator_of	sibpo:	2
+e	2	sibfo:	3	sioc:container_of	sibpo:	2
+e	3	sibpo:	2	sib:hashtag	literal	-1
+e	4	sibpo:	2	sib:agent	literal	-1
+e	5	sibpo:	2	dcterms:title	literal	-1
+e	6	sibpo:	2	a	sib:	4
+e	7	sibpo:	2	dc:created	literal	-1
+e	8	sibpo:	5	a	sib:	4
+e	9	sibpo:	5	sib:browser	literal	-1
+e	10	sibpo:	5	dc:created	literal	-1
+e	11	sibpho:	6	a	sib:	4
+e	12	sibpha:	7	sioc:container_of	sibpho:	6
+e	13	sibpho:	6	sib:usertag	sibu:	8
+e	14	sibpo:	5	a	sioc:	9
+e	15	sibpho:	6	sib:usertag	sibu:	10
+
+b	1	12
+b	1	11
+b	1	15
+b	2	8
+b	2	4
+b	2	1
+b	3	14
+b	3	7
+b	3	10
+b	3	1
+b	4	12
+b	4	3
+b	4	14
+b	4	10
+b	4	9
+b	5	12
+b	5	8
+b	5	1
+b	6	4
+b	7	11
+b	7	9
+b	10	7
+b	10	5
+b	10	9
+b	10	1
+b	11	8
+b	12	7
+b	12	11
+b	13	8
+b	13	4
+b	13	15
+b	14	10
+b	14	9
+b	14	1
+b	15	12
+
+

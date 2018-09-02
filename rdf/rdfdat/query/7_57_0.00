@@ -1,0 +1,18 @@
+# qeNum=7, qNO=57, ratioTM=0
+e	1	sibu:	1	sioc:creator_of	sibpo:	2
+e	2	sibfo:	3	sioc:container_of	sibpo:	2
+e	3	sibpo:	2	sib:browser	literal	-1
+e	4	sibpo:	2	dc:created	literal	-1
+e	5	sibu:	4	sioc:creator_of	sibpo:	2
+e	6	sibpo:	2	a	sib:	5
+e	7	sibu:	6	sioc:creator_of	sibpo:	2
+
+
+tc1	1	4
+tc2	1	2
+tc3	1	6
+tc4	1	7
+tc5	1	3
+tc6	1	5
+tc7	1	1
+

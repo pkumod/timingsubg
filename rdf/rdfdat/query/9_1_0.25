@@ -1,0 +1,22 @@
+# qeNum=9, qNO=1, ratioTM=0.25
+e	1	sibpha:	1	sioc:container_of	sibpho:	2
+e	2	sibpha:	3	sioc:container_of	sibpho:	2
+e	3	sibpho:	2	sib:usertag	sibu:	4
+e	4	sibpho:	2	dbpprop:longd	literal	-1
+e	5	sibpho:	2	sib:usertag	sibu:	5
+e	6	sibpho:	2	dc:created	literal	-1
+e	7	sibpho:	2	sib:agent	literal	-1
+e	8	sibpho:	2	a	sib:	6
+e	9	sibpho:	2	sib:usertag	sibu:	7
+
+b	2	4
+b	4	5
+b	7	1
+
+tc1	3	2	4	5
+tc2	2	7	1
+tc3	1	9
+tc4	1	8
+tc5	1	6
+tc6	1	3
+

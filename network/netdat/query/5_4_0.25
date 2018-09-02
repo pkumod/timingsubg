@@ -1,0 +1,14 @@
+# qeNum=5, qNO=4, ratioTM=0.25
+e	1	1	2	TCP	-1	-1
+e	2	3	1	TCP	-1	443
+e	3	1	4	TCP	-1	443
+e	4	2	5	TCP	-1	80
+e	5	6	3	TCP	-1	-1
+
+b	3	1
+
+tc1	2	3	1
+tc2	1	4
+tc3	1	2
+tc4	1	5
+

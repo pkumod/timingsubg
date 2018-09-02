@@ -1,0 +1,22 @@
+# qeNum=13, qNO=76, ratioTM=0.25
+e	1	sibpho:	1	sib:usertag	sibu:	2
+e	2	sibpho:	1	a	sib:	3
+e	3	sibpho:	1	a	sioc:	4
+e	4	sibpho:	1	dbpprop:longd	literal	-1
+e	5	sibpho:	1	sib:browser	literal	-1
+e	6	sibpho:	1	sib:usertag	sibu:	5
+e	7	sibpo:	6	a	sib:	3
+e	8	sibpho:	1	dc:created	literal	-1
+e	9	sibpha:	7	sioc:container_of	sibpho:	1
+e	10	sibpho:	1	dbpo:location	literal	-1
+e	11	sibpho:	1	a	sioc:	8
+e	12	sibpho:	1	sib:usertag	sibu:	9
+e	13	sibpo:	6	dc:created	literal	-1
+
+b	3	7
+b	3	8
+b	7	10
+b	10	11
+b	11	5
+
+
